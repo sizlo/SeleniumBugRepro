@@ -8,7 +8,3 @@ dependencies {
     testCompile group: 'junit', name: 'junit-dep', version: '4.11'
     testCompile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '3.12.0'
 }
-
-task selniumTest(type: Test) {
-    include '**/*Test.class'
-}
